@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#frase {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed gray;
+}
+#jugar {
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed gray;
+}
+#letrasJugadas {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  border: 1px dashed gray;
+  font-size: 20px;
+}
+.casilla {
+  width: 10px;
+  height: 20px;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin: 3px;
+  text-transform: uppercase;
+}
+#areaFigura {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background: #feffaf;
+}
+.figura {
+  width: 150px;
+  height: 200px;
+}
+#cabeza,
+#tronco,
+#piernas,
+#brazos,
+#poste,
+#viga,
+#soga {
+  position: absolute;
+  left: 50px;
+}
+#fallas {
+  color: #ff0000;
+}
